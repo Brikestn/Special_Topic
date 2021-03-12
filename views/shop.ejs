@@ -20,9 +20,10 @@
                         <div class="text-dark">
                             <h4 class="product__price"><%= product.price %> Bath</h4>
                         </div>
-                        <div class="card__actions">
-                            <button class="btn btn-outline-primary">Detail</button>
-                        </div>
+                        <form method="get" action="/detail">
+                            <input type="hidden" id="product_id" name="product_id" value="<%= product.product_id %>">
+                            <button id="<%= product.product_id %>" class="btn" type="submit" >Detail</button>
+                        </form>
                     </article>
                 <% } %>
             </div>
