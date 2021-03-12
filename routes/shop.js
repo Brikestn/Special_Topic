@@ -3,12 +3,13 @@ const path = require('path');
 const express = require('express');
 
 const rootDir = require('../util/path');
-const adminData = require('./admin');
+const productdata = require('../database/product');
+
 
 const router = express.Router();
 
 router.get('/', (req, res, next) => {
-  const products = adminData.products;
+  const products = productdata.product;
   res.render('shop', {
     prods: products,
     pageTitle: 'Shop',

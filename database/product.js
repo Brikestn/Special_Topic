@@ -70,3 +70,4 @@ product = [
         "detail":"หน้าจอแสดงผลขนาด 15.6 ระดับ FHD IPS 300Hz หน่วยประมวลผล Intel Core i7-10875H Processor หน่วยประมวลผลกราฟิก NVIDIA GeForce RTX 2070 SUPER with Max-Q Design มาพร้อม SSD PCIe NVMe ความจุ 1TB และ RAM DDR4 32GB เทคโนโลยี Aeroblade 3D Fan รุ่นที่ 4 ที่เป็นใบพัดลมแบบพิเศษเอกสิทธิ์เฉพาะ Acer เท่านั้น มาพร้อมระบบปฏิบัติการ Windows 10 Home",
     }
 ]
+exports.product = product;
