@@ -10,21 +10,23 @@
             <div class="grid">
                 <% for (let product of prods) { %>
                     <article class="card product-item">
-                        <header class="card__header">
-                            <h1 class="product_name" style="color:blue;"><%= product.product_name %></h1>
+                        <br>
+                        <header class="bg-light text-dark ">
+                            <h6 class="product_name"><%= product.product_name %></h6>
                         </header>
                         <div class="card__image">
                             <img src="<%= product.image_path %>" alt="Avatar"  style="width:100%">
                         </div>
-                        <div class="card__content">
-                            <h2 class="product__price"><%= product.price %>bath</h2>
+                        <div class="text-dark">
+                            <h4 class="product__price"><%= product.price %> Bath</h4>
                         </div>
                         <div class="card__actions">
-                            <button class="btn">Add to Cart</button>
+                            <button class="btn btn-outline-primary">Detail</button>
                         </div>
                     </article>
                 <% } %>
             </div>
+            <br>
         <% } else { %>
             <h1>No Products Found!</h1>
         <% } %>
