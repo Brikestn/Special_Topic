@@ -68,6 +68,20 @@ product = [
         "image_path":"https://img.advice.co.th/images_nas/pic_product4/A0132439/A0132439OK_ORI_1.jpg",
         "price":"66,900",
         "detail":"หน้าจอแสดงผลขนาด 15.6 ระดับ FHD IPS 300Hz หน่วยประมวลผล Intel Core i7-10875H Processor หน่วยประมวลผลกราฟิก NVIDIA GeForce RTX 2070 SUPER with Max-Q Design มาพร้อม SSD PCIe NVMe ความจุ 1TB และ RAM DDR4 32GB เทคโนโลยี Aeroblade 3D Fan รุ่นที่ 4 ที่เป็นใบพัดลมแบบพิเศษเอกสิทธิ์เฉพาะ Acer เท่านั้น มาพร้อมระบบปฏิบัติการ Windows 10 Home",
+    },
+    {
+        "product_id":"11",
+        "product_name":"Notebook Microsoft Surface Pro7 (PUV-00026)",
+        "image_path":"https://img.advice.co.th/images_nas/pic_product4/A0134649/A0134649OK_ORI_1.jpg",
+        "price":"27,850",
+        "detail":"หน้าจอแสดงผลขนาด 12.3 PixelSense™ Display ความละเอียด 2736x1824 ระบบสัมผัส: 10 point multi-touch หน่วยประมวลผล Intel Core i5-1035G4 Processor มาพร้อม SSD ความจุ 256GB และ RAM 8GB LPDDR4X มาพร้อมระบบปฏิบัติการ Windows 10 Home",
+    },
+    {
+        "product_id":"12",
+        "product_name":"Notebook Microsoft Surface Laptop 3 (VEF-00041)",
+        "image_path":"https://img.advice.co.th/images_nas/pic_product4/A0134146/A0134146OK_ORI_1.jpg",
+        "price":"39,990",
+        "detail":"หน้าจอแสดงผลขนาด 13.5 ความละเอียด 2256x1504 ระบบประมวลผล Intel Core i7-1065G7 Processor มาพร้อม SSD ความจุ 256GB และ RAM 16GB DDR4 มาพร้อมระบบปฏิบัติการ Windows 10 Home",
     }
 ]
 exports.product = product;
